@@ -2,7 +2,7 @@
 
 Polymer web component to display a clock.
 
-<img src="/alfalabs/alfa-clock/raw/master/clock.png">
+<img src="clock.png">
 
 ## use example
 
