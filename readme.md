@@ -44,7 +44,7 @@ Polymer web component to display a clock.
 The clock face is made with SVG image containing numbers for hours.  
 To change the color of SVG, a CSS `filter` is applied.  
 `--face-filter: invert(.5) sepia(5) saturate(25) hue-rotate(-45deg);`  
-Try to manipulate `saturation` and `hue-rotate` to achieve desired color. It is hard, but blame the CSS commitee.
+Try to manipulate `saturation` and `hue-rotate` to achieve desired color. It is hard, but blame the CSS committee.
 
 Examples of colors:  
 ```css
