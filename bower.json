@@ -1,0 +1,21 @@
+{
+  "name": "alfa-clock",
+  "description": "non-ticking clock for Polymer",
+  "main": "alfa-clock.html",
+  "authors": [
+    "alfalabs.net"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "clock",
+    "Polymer"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
