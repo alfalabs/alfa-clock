@@ -1,3 +1,4 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 # alfa-clock
 
 Polymer web component to display a clock.
@@ -52,4 +53,5 @@ Examples of colors:
 --face-filter: invert(.5) sepia(1) saturate(5) hue-rotate(60deg);  /* green */
 --face-filter: invert(.5) sepia(5) saturate(25) hue-rotate(-45deg); /* red */
 ```
-
+## Requirements
+Modern Browser supporting CSS3, tested with Polymer 2 and Chrome
