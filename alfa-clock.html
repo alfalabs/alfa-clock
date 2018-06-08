@@ -1,4 +1,4 @@
-<!-- 15.6.6  alfa-clock -->
+<!-- 15.6.7  alfa-clock -->
 
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/polymer/polymer.html"> <!-- to avoid IDIOTENKODE -->
@@ -164,11 +164,10 @@
         properties: {clockBrand: String},
 
         attached(){
-            this.initLocalClocks();
+            this.start();
         },
 
-        initLocalClocks(){
-            // Get the local time using JS
+        start(){
             var date = new Date;
             var seconds = date.getSeconds();
             var minutes = date.getMinutes();

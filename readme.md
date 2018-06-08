@@ -1,4 +1,4 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/alfalabs/alfa-clock)
 
 # alfa-clock
 
@@ -9,7 +9,7 @@ Polymer web component to display a clock.
 ## use example:
 
 ```html
-   <link rel="import" href="alfa-clock/alfa-clock.html">
+   <link rel="import" href="alfa-clock.html">
 
     <style>
         alfa-clock {float: left;}
@@ -54,18 +54,10 @@ Examples of colors:
 --face-filter: invert(.5) sepia(1) saturate(5) hue-rotate(60deg);  /* green */
 --face-filter: invert(.5) sepia(5) saturate(25) hue-rotate(-45deg); /* red */
 ```
+## single page applications
 
-## Demo
+This clock is based on CSS animations. When a page is loosing "focus" the CSS animation stops. When the page with clock is reopened, the clock resunmes animations and is late!
+To avoid this, run  
+`this.$$('alfa-clock').start();`  
+each time the containing page is reopened.
 
-<!--
-```
-<custom-element-demo>
-  <template>
-    <link rel="import" href="alfa-clock.html">
-  </template>
-</custom-element-demo>
-```
--->
-```html
-<alfa-clock></alfa-clock>
-```
